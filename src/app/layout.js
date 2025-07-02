@@ -20,6 +20,7 @@ export const metadata = {
         alt: 'Manish Portfolio Preview Image',
       },
     ],
+    logo : '/logo.png',
   }
 };
 
