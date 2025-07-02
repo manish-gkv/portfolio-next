@@ -5,7 +5,7 @@ import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen">
       <Hero />
       <Aboutme />
       <Skills />

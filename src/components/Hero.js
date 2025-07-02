@@ -10,7 +10,7 @@ export default function Hero() {
     }
     return (
         <>
-            <div id="home" className="flex flex-col h-screen px-8 items-center justify-center gap-2 -mt-10 sm:gap-6  sm:-mt-16 font-medium w-full">
+            <div id="home" className="flex flex-col h-screen px-8 items-center justify-center gap-2 sm:gap-6 font-medium w-full">
                 <div className=""><span className="bg-gray-200 rounded-full text-sm py-1 px-3">FullStack Developer</span></div>
                 <div className="text-black font-bold text-4xl md:text-6xl text-center tracking-tighter text-balance">
                     Building Scalable Web Solutions from Frontend to Backend
