@@ -12,9 +12,9 @@ export default function Aboutme() {
                         <div>About Me</div>
                     </div>
                     <h3>
-                        Hello! I'm a passionate FullStack developer focused on building scalable and efficient web applications. Proficient in JavaScript, React, Node.js, and Express, I love crafting clean and functional code.
+                        {"Hello! I'm a passionate FullStack developer focused on building scalable and efficient web applications. Proficient in JavaScript, React, Node.js, and Express, I love crafting clean and functional code."}
                         <br /><br />
-                        I've developed projects involving RESTful APIs, authentication, and database integration. Always eager to learn, collaborate, and deliver impactful digital solutions.
+                        {"I've developed projects involving RESTful APIs, authentication, and database integration. Always eager to learn, collaborate, and deliver impactful digital solutions."}
                     </h3>
                 </div>
                 <div className="flex flex-col col-span-1 w-full px-8 bg-white border border-gray-200 p-4 rounded-lg shadow-2xl text-black font-medium">
