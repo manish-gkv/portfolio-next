@@ -5,7 +5,7 @@ import "./globals.css";
 export const metadata = {
   title: "Manish Kumar Akela | Full Stack Web Developer & CSE Student",
   description: "Manish Kumar Akela, final-year CSE student at GKV Haridwar, India. Passionate full stack developer with strong skills in web development and problem-solving.",
-  keywords: "Manish Kumar Akela, Software Engineer, Full Stack Developer, GKV Haridwar, CSE Student, Manish Akela Portfolio",
+  keywords: "Manish Kumar Akela, Software Engineer, Full Stack Developer, GKV Haridwar, CSE Student, Manish Akela Portfolio, Manish, Manish Yadav",
   openGraph: {
     title: 'Manish Kumar Akela | Full Stack Developer',
     description: 'Explore projects and skills of Manish Kumar Akela, a final year CSE student at GKV Haridwar.',
