@@ -23,9 +23,40 @@ export const metadata = {
   }
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Manish Kumar Akela",
+  alternateName: ["Manish Yadav", "Manish Kumar", "Manish"],
+  jobTitle: "Software Engineer",
+  alumniOf: {
+    "@type": "CollegeOrUniversity",
+    name: "GKV Haridwar"
+  },
+  url: "https://manishdev.info",
+  sameAs: [
+    "https://x.com/manishh_dev",
+    "https://github.com/manish-gkv",
+    "https://in.linkedin.com/in/manish-kumar-akela-104731213",
+    "https://www.instagram.com/manish16.10/"
+  ],
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Salempur",
+    addressRegion: "Vaishali",
+    addressCountry: "India"
+  }
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body
         className={``}
       >
