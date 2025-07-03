@@ -20,7 +20,7 @@ export default function Aboutme() {
                 <div className="flex flex-col col-span-1 w-full px-8 bg-white border border-gray-200 p-4 rounded-lg shadow-2xl text-black font-medium">
                     <div className="mb-6">Quick Info</div>
                     <div className="grid grid-cols-2 items-start ">
-                        <div >Exprience : </div>
+                        <div >Experience : </div>
                         <div className="text-gray-500" > 6+Months</div>
                     </div>
                     <div className="grid grid-cols-2 items-start">
