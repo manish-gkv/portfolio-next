@@ -72,12 +72,12 @@ export default function Projects() {
                     />
 
                     <ProjectCard 
-                        img="/spms-tle.png"
-                        projectTitle="Student Progress Management System" 
-                        projetDescription="A Student Progress Management System (SPMS) that tracks Codeforces account performance, including contest history and rating changes.
-                        Helps monitor growth, identify weak areas, and visualize progress over time." gitHubLink="https://github.com/manish-gkv/TLE-SPMS" 
-                        demoLink="https://spms.manishdev.info/" 
-                        technologyUsed={["React", "ExpressJs", "Tailwind CSS", "MongoDB"]} 
+                        img="/bot.png"
+                        projectTitle="ChatBot" 
+                        projetDescription="A ChatBot application that provides a conversational interface for users to interact with."
+                        gitHubLink="https://github.com/manish-gkv/chatbot"
+                        demoLink="https://chatbot.manishdev.info/"
+                        technologyUsed={["React", "Tailwind CSS", "nHost", "Hasura", "n8n(workflow)"]} 
                     />
                     
                 </div>
